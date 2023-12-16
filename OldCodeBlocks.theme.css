@@ -67,7 +67,7 @@
     font-weight: 700
 }
 
-/* Important: The lines below this comment forces to update the new codeblock's elements and their colors to the old ones */
+/* Important: The lines below this comment update the new code block's elements and their colors to the old ones */
 .theme-dark .hljs-title.class_,.theme-dark .hljs-title.class_.inherited__,.theme-dark .hljs-title.function_{
     color: #268bd2
 }
@@ -136,7 +136,7 @@
     font-weight: 700
 }
 
-/* Important: The lines below this comment forces to update the new codeblock's elements and their colors to the old ones */
+/* Important: The lines below this comment update the new code block's elements and their colors to the old ones */
 .theme-light .hljs-title.class_,.theme-light .hljs-title.class_.inherited__,.theme-light .hljs-title.function_{
     color: #268bd2
 }
