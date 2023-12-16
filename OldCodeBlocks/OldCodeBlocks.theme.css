@@ -1,0 +1,146 @@
+/**
+* @name OldCodeBlocks
+* @author @tfagaming
+* @version 1.0.0
+* @description Bring back the old Discord code blocks colors that were used from 2018-2022.
+* @authorId 849413565487382578
+* @source https://github.com/TFAGaming/MyThemes/tree/main/OldCodeBlocks
+*/
+
+/*
+=====================================
+            DARK THEME
+=====================================
+*/
+
+.theme-dark .hljs {
+    display: block;
+    overflow-x: auto;
+    padding: .5em;
+    border-radius: 4px;
+    color: var(--header-secondary);
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-size-adjust: none
+}
+
+.theme-dark .hljs-comment, .theme-dark .hljs-quote {
+    color: var(--interactive-muted)
+}
+
+.theme-dark .hljs-addition,.theme-dark .hljs-keyword,.theme-dark .hljs-selector-tag {
+    background: none;
+    color: #859900
+}
+
+.theme-dark .hljs-doctag,.theme-dark .hljs-literal,.theme-dark .hljs-meta .hljs-meta-string,.theme-dark .hljs-number,.theme-dark .hljs-regexp,.theme-dark .hljs-string {
+    color: #2aa198
+}
+
+.theme-dark .hljs-name,.theme-dark .hljs-section,.theme-dark .hljs-selector-class,.theme-dark .hljs-selector-id,.theme-dark .hljs-title {
+    color: #268bd2
+}
+
+.theme-dark .hljs-attr,.theme-dark .hljs-attribute,.theme-dark .hljs-class .hljs-title,.theme-dark .hljs-template-variable,.theme-dark .hljs-type,.theme-dark .hljs-variable {
+    color: #b58900
+}
+
+.theme-dark .hljs-bullet,.theme-dark .hljs-link,.theme-dark .hljs-meta,.theme-dark .hljs-meta .hljs-keyword,.theme-dark .hljs-selector-attr,.theme-dark .hljs-selector-pseudo,.theme-dark .hljs-subst,.theme-dark .hljs-symbol {
+    color: #cb4b16
+}
+
+.theme-dark .hljs-built_in,.theme-dark .hljs-deletion {
+    background: none;
+    color: #dc322f
+}
+
+.theme-dark .hljs-formula {
+    background: #073642
+}
+
+.theme-dark .hljs-emphasis {
+    font-style: italic
+}
+
+.theme-dark .hljs-strong {
+    font-weight: 700
+}
+
+/* Important: The lines below this comment forces to update the new codeblock's elements and their colors to the old ones */
+.theme-dark .hljs-title.class_,.theme-dark .hljs-title.class_.inherited__,.theme-dark .hljs-title.function_{
+    color: #268bd2
+}
+
+.theme-dark .hljs-variable.language_{
+    color: #dc322f
+}
+
+/*
+=====================================
+            LIGHT THEME
+=====================================
+*/
+
+.theme-light .hljs {
+    display: block;
+    overflow-x: auto;
+    padding: .5em;
+    border-radius: 4px;
+    color: var(--header-secondary);
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    text-size-adjust: none
+}
+
+.theme-light .hljs-comment, .theme-light .hljs-quote {
+    color: var(--interactive-muted)
+}
+
+.theme-light .hljs-addition,.theme-light .hljs-keyword,.theme-light .hljs-selector-tag {
+    background: none;
+    color: #859900
+}
+
+.theme-light .hljs-doctag,.theme-light .hljs-literal,.theme-light .hljs-meta .hljs-meta-string,.theme-light .hljs-number,.theme-light .hljs-regexp,.theme-light .hljs-string {
+    color: #2aa198
+}
+
+.theme-light .hljs-name,.theme-light .hljs-section,.theme-light .hljs-selector-class,.theme-light .hljs-selector-id,.theme-light .hljs-title {
+    color: #268bd2
+}
+
+.theme-light .hljs-attr,.theme-light .hljs-attribute,.theme-light .hljs-class .hljs-title,.theme-light .hljs-template-variable,.theme-light .hljs-type,.theme-light .hljs-variable {
+    color: #b58900
+}
+
+.theme-light .hljs-bullet,.theme-light .hljs-link,.theme-light .hljs-meta,.theme-light .hljs-meta .hljs-keyword,.theme-light .hljs-selector-attr,.theme-light .hljs-selector-pseudo,.theme-light .hljs-subst,.theme-light .hljs-symbol {
+    color: #cb4b16
+}
+
+.theme-light .hljs-built_in,.theme-light .hljs-deletion {
+    background: none;
+    color: #dc322f
+}
+
+.theme-light .hljs-formula {
+    background: #073642
+}
+
+.theme-light .hljs-emphasis {
+    font-style: italic
+}
+
+.theme-light .hljs-strong {
+    font-weight: 700
+}
+
+/* Important: The lines below this comment forces to update the new codeblock's elements and their colors to the old ones */
+.theme-light .hljs-title.class_,.theme-light .hljs-title.class_.inherited__,.theme-light .hljs-title.function_{
+    color: #268bd2
+}
+
+.theme-light .hljs-variable.language_{
+    color: #dc322f
+}
